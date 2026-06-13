@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" alt="Shoes">
+        </div>
+
+        <div class="product-details">
+            <h1>Running Shoes</h1>
+
+            <p class="price">₹1,999</p>
+
+            <p class="description">
+                High-quality running shoes designed for comfort,
+                durability, and style. Perfect for sports and daily use.
+            </p>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" value="1" min="1">
+
+            <button onclick="addToCart()">Add to Cart</button>
+
+            <p id="message"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
